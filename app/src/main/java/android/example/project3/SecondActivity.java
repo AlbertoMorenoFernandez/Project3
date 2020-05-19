@@ -51,6 +51,7 @@ public class SecondActivity extends AppCompatActivity {
             }
             else{
                 imageToShow.setImageResource(R.drawable.ic_camera_blue_100dp);
+
             }
         }
         else{
