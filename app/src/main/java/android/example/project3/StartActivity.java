@@ -21,6 +21,7 @@ public class StartActivity extends AppCompatActivity {
     }
 
     public void OnClickButton(View view) {
+        // Vamos a poner un comentario
         if(view.getId()==R.id.button_start){
             Intent intent= new Intent(this,SecondActivity.class);
             intent.putExtra("name", nameText.getText().toString());
